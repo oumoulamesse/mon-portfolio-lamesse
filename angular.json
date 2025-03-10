@@ -21,15 +21,29 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
-            ],
+              
+            "src/assets",
+            "src/favicon.ico"
+],
             "styles": [
-              "src/styles.css"
+              
+  
+              "src/styles.css",
+             
+              "src/assets/css/main.css"
+            ,
+            "node_modules/bootstrap/dist/css/bootstrap.min.css",
+            "node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+          ],
+            "scripts": [
+              "src/assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
+              "src/assets/vendor/aos/aos.js",
+              "src/assets/vendor/glightbox/js/glightbox.min.js",
+              "src/assets/vendor/swiper/swiper-bundle.min.js",
+              "src/assets/vendor/typed.js/typed.cjs",
+              "src/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"
+
             ],
-            "scripts": [],
             "server": "src/main.server.ts",
             "outputMode": "server",
             "ssr": {
